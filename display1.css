@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html,body{
+    display: grid;
+    height: 100%;
+}
+
+html{
+    background: url("bg1.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wrapper{
+    width: 350px;
+    background:transparent;
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-top: 180px;
+}
+
+.wrapper .title{
+    line-height: 80px;
+    background: transparent;
+    text-align: center;
+    font-size: 35px;
+    font-style: 'Pacifico';
+    color: #000;
+    font-weight: 600;
+}
+
+.wrapper form{
+    padding: 30px 20px 25px 20px;
+}
+
+.wrapper form .row{
+    height: 45px;
+    background:transparent;
+    margin-bottom: 25px;
+}
+
+.wrapper form .row input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    text-align: center;
+    border-radius: 15px;
+    font-size: 20px;
+}
+
+.wrapper form .button input{
+    padding-left: 0px;
+    background:#000;
+    border: 1px solid yellow;
+    cursor: pointer;
+    color:#fff;
+    font-weight: 500;
+    font-size: 20px;
+    border-radius: 25px;
+}
